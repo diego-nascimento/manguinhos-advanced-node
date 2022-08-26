@@ -10,7 +10,8 @@ export class FacebookAuthenticationService implements FacebookAuthentication {
   constructor (
     private readonly facebookApi: LoadFacebookUserApi,
     private readonly userAccountRepo: LoadUserAccountRepository & SaveFacebookAccountRepository,
-    private readonly crypto: TokenGenerator,) {
+    private readonly crypto: TokenGenerator
+  ) {
   }
 
   async perform (params: FacebookAuthentication.Params):Promise<FacebookAuthentication.Result> {
