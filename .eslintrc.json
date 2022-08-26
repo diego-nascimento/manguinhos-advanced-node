@@ -20,6 +20,7 @@
       "comma-dangle": "off",
       "semi": "off",
       "no-redeclare": "off",
-      "no-useless-constructor": "off"
+      "no-useless-constructor": "off",
+      "camelcase": "off"
     }
 }
